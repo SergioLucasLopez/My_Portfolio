@@ -1,0 +1,321 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobiwave/simplefolio/
+  Readme: https://github.com/cobiwave/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Todo: put here your site title -->
+    <title>[Sergio] | Developer</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hola, Mi nombre es <span class="text-color-main">Sergio</span>
+          <br />
+          Soy Desarrollador Software Junior e Ingeniero de Datos Junior.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Conoce más</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">Sobre mí</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/Imagen para contactar.png"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                "Soy estudiante de último año en Desarrollo de Aplicaciones Multiplataforma, 
+                con un nivel C1 de inglés y un grado adicional en Psicología. También curse 3 años
+                ingeniería informática. He complementado mi formación con diversos cursos, proyectos 
+                y certificaciones en desarrollo fullstack e ingeniería de datos, enfocándome 
+                en soluciones tecnológicas completas y eficientes". 
+              </p>
+              <p class="about-wrapper__info-text">
+                TECNOLOGÍAS CONOCIDAS <br> 
+                <p style="color: darkblue;" class="about-wrapper__info-text">1. Entornos de Desarrollo:</p  >
+                <p class="about-wrapper__info-text">Eclipse ,Visual Studio Code, Visual Studio, GitHub</p>
+                <p style="color: darkblue;" class="about-wrapper__info-text">2. Tecnologías de Desarrollo Front-End:</p>
+                <p class="about-wrapper__info-text">React, JavaScript, UX Figma</p>
+                <p style="color: darkblue;" class="about-wrapper__info-text">3. Tecnologías de Desarrollo Back-End:</p>
+                <p class="about-wrapper__info-text">Node.js, .NET, Python, C#, Java</p>
+                <p style="color: darkblue;" class="about-wrapper__info-text">4. Metodologías Agile:</p>
+                <p class="about-wrapper__info-text">Scrum con Jira y Atlassian</p>
+                <p style="color: darkblue;" class="about-wrapper__info-text">5. Bases de Datos y Procesamiento de Datos:</p>
+                <p class="about-wrapper__info-text">SQL, PL/SQL, MongoDB, Apache Kafka</p>
+                <p style="color: darkblue;" class="about-wrapper__info-text">6. Cloud y Herramientas de Infraestructura</p>
+                <p class="about-wrapper__info-text">Azure, Google Cloud, AWS</p>
+                <p style="color: darkblue;" class="about-wrapper__info-text">7. Herramientas de Análisis de Datos:</p>
+                <p class="about-wrapper__info-text">Power BI</p>
+              </p>
+              <p class="about-wrapper__info-text">
+                Además, me gusta el gimnasio, mejorar y estudiar cada día.
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/CV ESPAÑOL 2.0.pdf"
+                >
+                  Ver mi CV
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Proyectos</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Aplicación con React de una to do list</h3>
+                <div>
+                  <p class="mb-4">
+                    Desarrollé una aplicación de lista de tareas completa en React, aprendiendo sobre componentes,
+                    manejo de estados, eventos y uso de hooks como useState y useEffect. Implementé funciones para crear,
+                    editar y eliminar tareas, además de añadir persistencia utilizando almacenamiento local del navegador.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/SergioLucasLopez/uqwxd-react_labs"
+                >
+                  Acceder
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/to do list.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Aplicación con React para asignación de presupuesto</h3>
+                <div>
+                  <p class="mb-4">
+                    Aplicación de asignación de presupuesto en React. Aprendí a descomponer una UI en componentes, 
+                    gestionar el estado global usando Context API y crear acciones y reducers. Fue una experiencia
+                    enriquecedora que mejoró mis habilidades en React y la gestión de estado.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/SergioLucasLopez/ejtos-react_budget_app"
+                >
+                  Acceder
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/Budget App.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">End to End Azure data Engineering project</h3>
+                <div>
+                  <p class="mb-4">
+                    Configuré un entorno en Azure con recursos, una base de datos SQL Server y
+                    Data Lake Gen2. Usé Azure Data Factory para ETL, moviendo datos de SQL Server
+                    a Data Lake con un Self-hosted Integration Runtime. Transformé datos en Azure
+                    Databricks, conectando Data Factory para automatizar el proceso. Aunque la carga
+                    en Azure Synapse y visualización con Power BI no se completaron, el proyecto 
+                    mejoró mis habilidades en la nube y la gestión de datos.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://portal.azure.com/#home"
+                >
+                  Acceder
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/azure project.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">CONTÁCTAME</h2>
+        <h3 class="mb-4">Correo: sergiolljec@gmail.com</h3>
+        <h3 cclass="mb-4">Tel: +34 662 59 18 26</h3>
+        <div class="contact-wrapper load-hidden">
+          
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:sergiolljec@gmail.com"
+            >Envíame tu mensaje</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/sergio-lucas-l%C3%B3pez-48881b28a/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/SergioLucasLopez" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+        <p class="footer__text">
+          © 2024 - Template developed by
+          <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
+            >Sergio Lucas López</a
+          >
+        </p>
+
+        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
+        
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
